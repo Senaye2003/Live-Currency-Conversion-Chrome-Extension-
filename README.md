@@ -26,8 +26,8 @@ This project implements a currency converter that allows users to convert betwee
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/currency-converter.git
-    cd currency-converter
+   https://github.com/Senaye2003/Live-Currency-Conversion-Chrome-Extension-.git
+   cd currency-converter
     ```
 
 2. Open `index.html` in your preferred web browser.
