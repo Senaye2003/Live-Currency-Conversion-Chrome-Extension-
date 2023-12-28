@@ -55,5 +55,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Note:** Replace the placeholder links and URLs with actual ones relevant to your project.
-
