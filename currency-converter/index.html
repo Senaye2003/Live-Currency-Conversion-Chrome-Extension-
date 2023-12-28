@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+  </head>
+  <body>
+    <div class="currency-app">
+      <h2>Currency Converter</h2>
+
+      <div class="app-content">
+        <input
+          type="number"
+          value="1.00"
+          placeholder="Enter amount"
+          class="input-amount"
+        />
+
+        <div class="select-options">
+          <div>
+            <select name="" id="fromCurrency">
+              <option value="usd">USD - U.S. Dollar</option>
+            </select>
+
+            <select name="" id="toCurrency">
+              <option value="usd">USD - U.S. Dollar</option>
+            </select>
+          </div>
+
+          <div class="swap-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="result"><span class="result-currency">USD </span>00</div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

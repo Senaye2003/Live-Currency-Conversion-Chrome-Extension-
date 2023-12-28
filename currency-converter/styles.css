@@ -1,0 +1,104 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a; 
+    color: #fff; 
+    font-family: "Poppins", sans-serif;
+}
+
+.currency-app {
+    max-width: 400px;
+    background: #2c2c2c; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.currency-app:hover {
+    transform: scale(1.02);
+}
+
+.currency-app h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.currency-app .app-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.currency-app input,
+.currency-app select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #3498db;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+    background-color: #333; 
+    color: #fff; 
+}
+
+.currency-app input:focus,
+.currency-app select:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.currency-app input {
+    font-size: 18px;
+}
+
+.currency-app .select-options {
+    display: flex;
+    gap: 10px;
+}
+
+.currency-app .swap-btn {
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.currency-app .swap-btn:hover {
+    background-color: #297fb8;
+}
+
+.currency-app .result {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background: #3498db;
+    color: #fff;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.currency-app .result-currency {
+    font-size: 16px;
+    text-transform: lowercase;
+}
+
+.currency-app .result:hover {
+    background: #297fb8;
+}
