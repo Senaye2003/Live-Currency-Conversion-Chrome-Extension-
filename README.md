@@ -17,7 +17,10 @@ This project implements a currency converter that allows users to convert betwee
 
 ![Alt text](image.png)
 
+![image](https://github.com/Senaye2003/Live-Currency-Conversion-Chrome-Extension-/assets/86176742/cf9e1e4e-f85b-47dc-94f3-64dba8bc30c3)
+
 ## Demo
+
 
 
 
